@@ -1,0 +1,34 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Claude Code local overrides
+.claude/settings.local.json
+
+# Dependencies and generated output
+node_modules/
+vendor/
+dist/
+build/
+out/
+target/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
